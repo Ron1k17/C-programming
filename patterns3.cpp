@@ -21,8 +21,7 @@ for(int i=1;i<=n;i++){
     // int star = 1;
     // if(i % 2 ==0) star=1;
     // else star =0;
-    
-        for(int j=1;j<=i;j++){
+     for(int j=1;j<=i;j++){
             cout<<j;
             // star = 1-star;
         }
@@ -36,6 +35,8 @@ for(int i=1;i<=n;i++){
         }
         cout<<endl;
     }
+
+
 int num=1;
     for (int i =1;i<=n;i++){
         

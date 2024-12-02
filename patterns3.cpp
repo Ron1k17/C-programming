@@ -46,4 +46,47 @@ int num=1;
         }
         cout<<endl;
     }
+
+for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            if((i+j)%2==0) 
+            cout<<"1";
+            else cout<<"0";
+
+        }
+        cout<<endl;
+    }
+// int space= n;
+   for(int i=1;i<=n;i++){
+    // int space=i;
+    // if(i<n) space = 2*n-i;
+        for(int j=1;j<=n-i;j++){
+            // if((i+j)%2==0) 
+            cout<<" ";
+            // else cout<<"0";
+
+        }
+        for(int j=1;j<=2*i-1;j++){
+            // if(i<n) cout<<2*n-i;
+            cout<<"*";
+        }
+
+        cout<<endl;
+    }
+    for(int i=1;i<n;i++){
+    // int space=i;
+    // if(i<n) space = 2*n-i;
+        for(int j=0;j<2*i-i;j++){
+            // if((i+j)%2==0) 
+            cout<<" ";
+            // else cout<<"0";
+
+        }
+        for(int j=0;j<2*n-2*i-1;j++){
+            // if(i<n) cout<<2*n-i;
+            cout<<"*";
+        }
+
+        cout<<endl;
+    }
 }

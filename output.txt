@@ -1,1 +1,6 @@
-ronik7
+capacity of vector: 0
+capacity of vector: 1
+capacity of vector: 2
+capacity of vector: 4
+size of vector: 3
+1 2 3 
